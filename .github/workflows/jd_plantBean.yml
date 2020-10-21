@@ -30,4 +30,4 @@ jobs:
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
-          
+          PLANT_BEAN_SHARECODES: ${{ secrets.PLANT_BEAN_SHARECODES }}
