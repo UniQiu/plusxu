@@ -22,7 +22,7 @@ jobs:
           npm install
       - name: '运行 【中青看点自动阅读2】'
         run: |
-          node Task/Youthzhuanpan1.js
+          node Task/youthzhuanpan1.js
         env:
           YOUTH_READ: ${{ secrets.YOUTH_READ_2 }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
