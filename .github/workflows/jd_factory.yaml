@@ -24,9 +24,9 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【种豆得豆】'
+      - name: '运行 【东东工厂】'
         run: |
-          node jd_plantBean.js
+          node jd_factory.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
