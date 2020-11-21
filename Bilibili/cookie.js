@@ -1,5 +1,4 @@
-  
-/*
+  /*
 Author: 2Ya
 Github: https://github.com/domping
 ===================
