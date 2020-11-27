@@ -27,3 +27,5 @@ jobs:
       - name: '运行 【qq阅读】'
         run: |
           node qqreader.js
+        env:
+          
