@@ -71,8 +71,7 @@ const cookiesArr = [
     }),
     qqreadtimeurlVal:
     "https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?scene=2016&refer=-1&bid=13785294&readTime=3572&read_type=0&conttype=1&read_status=0&chapter_info=%5B%7B%221%22%3A%7B%22readTime%22%3A3572%2C%22pay_status%22%3A0%2C%22is_tail%22%3A0%7D%7D%5D&sp=-1",
-      #"https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?scene=1007&refer=-1&bid=26878703&readTime=5083&read_type=0&conttype=1&read_status=0&chapter_info=%5B%7B%221%22%3A%7B%22readTime%22%3A5083%2C%22pay_status%22%3A0%7D%7D%5D&sp=-1",
-    qqreadtimeheaderVal: JSON.stringify({
+     qqreadtimeheaderVal: JSON.stringify({
       ywsession: "tdcr4aspwn6gz1n1i8ntokx9qrz18eiq",
       Cookie:
         "ywguid=1970290483;ywkey=ywTh1q4iHzEL;platform=ios;channel=mqqmina;mpVersion=0.29.4;qq_ver=8.4.10;os_ver=iOS 14.2;mpos_ver=1.20.0;platform=ios;openid=1D08A4CC8E547095DB02DB3F4C45C34B",
