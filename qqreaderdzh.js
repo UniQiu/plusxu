@@ -1,17 +1,7 @@
-
-/*ziye
-
+/*
 本人github地址     https://github.com/ziye12/JavaScript 
-转载请备注个名字，谢谢
-
-
-
 多账号版，请先用单脚本 通过修改jbid的方法，获取 每个账号的cookie   然后在下面👇填写进去
-
-
-
 */
-
 
 const jsname='企鹅读书'
 const $ = Env(jsname)
@@ -20,36 +10,12 @@ const logs = 0;   //0为关闭日志，1为开启
 const notifyInterval=0
 //0为关闭通知，1为所有通知，2为宝箱领取成功通知，3为宝箱每18次通知一次
 
-
-
 const dd=5//延迟
 const TIME=30//大概5分钟
 
-
-
-
 const jbidhj=['1','2','3']//有多少号就依次填写
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var tz=''
-
-
-
-
 
 //CK运行
 
@@ -59,11 +25,6 @@ if (isGetCookie) {
 } else {
    xxx()
 }
-
-
-
-
-
 
 function GetCookie() {
 
@@ -87,41 +48,21 @@ const qqreadheaderVal = JSON.stringify($request.headers)
 
 }
 
-
-
-
-
 else if($request &&$request.url.indexOf("addReadTimeWithBid?")>=0) {
 
   const qqreadtimeurlVal = $request.url
 if (qqreadtimeurlVal)        $.setdata(qqreadtimeurlVal,qqreadtimeurlKey)
     $.log(`[${jsname}] 获取阅读时长url: 成功,qqreadtimeurlVal: ${qqreadtimeurlVal}`)
 
-    
- 
-
-
 const qqreadtimeheaderVal = JSON.stringify($request.headers)
     if (qqreadtimeheaderVal)        $.setdata(qqreadtimeheaderVal,qqreadtimeheaderKey)
     $.log(`[${jsname}] 获取时长header: 成功,qqreadtimeheaderVal: ${qqreadtimeheaderVal}`)
     $.msg(qqreadtimeheaderKey, `获取阅读时长cookie: 成功🎉`, ``)
 
-
-   
-  
-
 }
 
 
 }
-
-
-
-
-
-
-
-
 
  /*function xxx()
 
@@ -130,37 +71,13 @@ const qqreadtimeheaderVal = JSON.stringify($request.headers)
    for(var i=0;i<4;i++)//修改为i<账号数➕1
  { (function(i) {
             setTimeout(function() {
-
-
 jbid=jbidhj[i];
-
-
-
-
- qqreadurlVal = $.getdata('qqreadurl'+jbid)
-
-
- qqreadheaderVal= $.getdata('qqreadhd'+jbid)
-
- 
- qqreadbodyVal = $.getdata('qqreadbody'+jbid)
-
-
+qqreadurlVal = $.getdata('qqreadurl'+jbid)
+qqreadheaderVal= $.getdata('qqreadhd'+jbid)
+qqreadbodyVal = $.getdata('qqreadbody'+jbid)
 qqreadtimeurlVal =$.getdata('qqreadtimeurl'+jbid)
-
-
 qqreadtimeheaderVal=$.getdata('qqreadtimehd'+jbid)
-
-
 all();
-
-
-
-
-
-
-
-
 //if (i!=10)fgx()//自己修改为账号数
 
 //if (i==10) showmsg()//自己修改为账号数
@@ -168,31 +85,17 @@ all();
 //if (i==11) $.done()//自己修改为账号数1
 
  }
-
-
-
 , (i + 1) *1000);
                 })(i)
-
-
-
-
-
-
 }
-
-
 }
-
-
 xxx()
 */
-
 function xxx()
 
  {
 
-   for(var i=0;i<4;i++)//修改为i<账号数➕2
+   for(var i=0;i<12;i++)//修改为i<账号数➕2
  { (function(i) {
             setTimeout(function() {
 
