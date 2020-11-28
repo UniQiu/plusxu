@@ -28,7 +28,7 @@ const TIME=30//大概5分钟
 
 
 
-const jbidhj=['1','2']//有多少号就依次填写
+const jbidhj=['1','2','3']//有多少号就依次填写
 
 
 
@@ -156,9 +156,9 @@ all();
 
 
 
-if (i!=2)fgx()
+if (i!=3)fgx()
 
-if (i==2) showmsg()//自己修改为账号数
+if (i==3) showmsg()//自己修改为账号数
 
  }
 
