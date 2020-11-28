@@ -123,7 +123,7 @@ const qqreadtimeheaderVal = JSON.stringify($request.headers)
 
 
 
- function xxx()
+ /*function xxx()
 
  {
 
@@ -154,6 +154,102 @@ qqreadtimeheaderVal=$.getdata('qqreadtimehd'+jbid)
 
 all();
 
+
+
+
+
+
+
+
+//if (i!=10)fgx()//自己修改为账号数
+
+//if (i==10) showmsg()//自己修改为账号数
+
+//if (i==11) $.done()//自己修改为账号数1
+
+ }
+
+
+
+, (i + 1) *1000);
+                })(i)
+
+
+
+
+
+
+}
+
+
+}
+
+
+xxx()
+*/
+function xxx()
+
+ {
+
+   for(var i=0;i<12;i++)//修改为i<账号数2
+ { (function(i) {
+            setTimeout(function() {
+
+
+jbid=jbidhj[i];
+
+ qqreadurlVal = $.getdata('qqreadurl'+jbid)
+
+
+ qqreadheaderVal= $.getdata('qqreadhd'+jbid)
+
+ 
+ qqreadbodyVal = $.getdata('qqreadbody'+jbid)
+
+
+qqreadtimeurlVal =$.getdata('qqreadtimeurl'+jbid)
+
+
+qqreadtimeheaderVal=$.getdata('qqreadtimehd'+jbid)
+
+
+
+
+
+
+console.log(qqreadurlVal+'\n\n'+qqreadheaderVal+'\n\n'+qqreadtimeurlVal+'\n\n'+qqreadtimeheaderVal+'\n\n')
+
+
+
+
+
+
+
+//if (i!=10)fgx()//自己修改为账号数
+
+//if (i==10) showmsg()//自己修改为账号数
+
+//if (i==11) $.done()//自己修改为账号数1
+
+ }
+
+
+
+, (i + 1) *1000);
+                })(i)
+
+
+
+
+
+
+}
+
+
+}
+
+
+xxx()
 
 
 if (i!=3)fgx()
