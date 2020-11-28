@@ -199,6 +199,18 @@ function xxx()
 jbid=jbidhj[i];
 
  qqreadurlVal = $.getdata('qqreadurl'+jbid)
+function xxx()
+
+ {
+
+   for(var i=0;i<12;i++)//修改为i<账号数➕2
+ { (function(i) {
+            setTimeout(function() {
+
+
+jbid=jbidhj[i];
+
+ qqreadurlVal = $.getdata('qqreadurl'+jbid)
 
 
  qqreadheaderVal= $.getdata('qqreadhd'+jbid)
@@ -217,7 +229,7 @@ qqreadtimeheaderVal=$.getdata('qqreadtimehd'+jbid)
 
 
 
-console.log(qqreadurlVal+'\n\n'+qqreadheaderVal+'\n\n'+qqreadtimeurlVal+'\n\n'+qqreadtimeheaderVal+'\n\n')
+console.log(qqreadurlVal+'\n\n'+qqreadheaderVal+'\n\n'+qqreadtimeurlVal+'\n\n'+qqreadtimeheaderVal+'\n\n👤')
 
 
 
@@ -229,7 +241,7 @@ console.log(qqreadurlVal+'\n\n'+qqreadheaderVal+'\n\n'+qqreadtimeurlVal+'\n\n'+q
 
 //if (i==10) showmsg()//自己修改为账号数
 
-//if (i==11) $.done()//自己修改为账号数1
+//if (i==11) $.done()//自己修改为账号数➕1
 
  }
 
