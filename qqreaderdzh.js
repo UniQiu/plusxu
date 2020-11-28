@@ -156,7 +156,7 @@ console.log(qqreadurlVal+'\n\n'+qqreadheaderVal+'\n\n'+qqreadtimeurlVal+'\n\n'+q
 xxx()
 
 
-if (i!=3)fgx()
+/*if (i!=3)fgx()
 
 if (i==3) showmsg()//自己修改为账号数
 
@@ -183,7 +183,7 @@ if (i==3) showmsg()//自己修改为账号数
 
 
 
-
+*/
 function fgx() {
 
       
