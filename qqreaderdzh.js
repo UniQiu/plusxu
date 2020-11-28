@@ -95,7 +95,7 @@ function xxx()
 
  {
 
-   for(var i=0;i<12;i++)//修改为i<账号数➕2
+   for(var i=0;i<4;i++)//修改为i<账号数➕2
  { (function(i) {
             setTimeout(function() {
 
