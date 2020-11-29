@@ -39,7 +39,7 @@
         {
           "name": " 运行 【企鹅阅读一】",
           "if": "env.COOKIE_QQYD",
-          "run": "node qqyd.js\n",
+          "run": "node qqreader.js\n",
           "env": {
             "COOKIE_QQYD": "${{ secrets.COOKIE_QQYD }}",
             "TG_BOT_TOKEN": "${{ secrets.TG_BOT_TOKEN }}",
@@ -49,7 +49,7 @@
         {
           "name": " 运行 【企鹅阅读二】",
           "if": "env.COOKIE_QQYD2",
-          "run": "node qqyd.js\n",
+          "run": "node qqreader.js\n",
           "env": {
             "COOKIE_QQYD": "${{ secrets.COOKIE_QQYD2 }}",
             "TG_BOT_TOKEN": "${{ secrets.TG_BOT_TOKEN }}",
