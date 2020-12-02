@@ -100,18 +100,6 @@
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
       ]
     },
-    {
-      "id": "supermarket",
-      "name": "京东超市",
-      "keys": ["zd_shelf_level", "zd_product_level"],
-      "settings": [
-        {
-          "id": "zd_upgrade_cheapest_product",
-          "name": "只升级等级最低的一件商品且消耗200万金币以下",
-          "val": true,
-          "type": "boolean",
-          "desc": "完成超市赚钱升级商品任务200万金币"
-        },
         {
           "id": "zd_product_level",
           "name": "升级商品等级",
