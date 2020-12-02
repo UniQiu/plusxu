@@ -1,11 +1,4 @@
-{
-  "id": "chen95a.app.sub",
-  "name": "chen95a应用订阅",
-  "author": "@chen95a",
-  "icon": "",
-  "repo": "https://github.com/chen95a/plusxu",
-  "apps": [
-    {
+   {
       "id": "shareCode",
       "name": "互助码",
       "keys": [
@@ -1399,5 +1392,4 @@
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/rrtv.png", "https://raw.githubusercontent.com/Orz-3/task/master/rrtv.png"],
       "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js"
     }
-  ]
-}
+ 
