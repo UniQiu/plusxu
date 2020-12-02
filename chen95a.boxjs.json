@@ -1,9 +1,9 @@
 {
-  "id": "whyour.app.sub",
-  "name": "whyour应用订阅",
-  "author": "@whyour",
-  "icon": "https://avatars2.githubusercontent.com/u/22700758?s=88&u=26d911ccb8345dac955238c2ed6c572892ef924a&v=4",
-  "repo": "https://github.com/whyour/hundun",
+  "id": "chen95a.app.sub",
+  "name": "chen95a应用订阅",
+  "author": "@chen95a",
+  "icon": "",
+  "repo": "https://github.com/chen95a/plusxu",
   "apps": [
     {
       "id": "shareCode",
