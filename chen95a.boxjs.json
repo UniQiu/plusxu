@@ -1,4 +1,11 @@
-   {
+{
+  "id": "chen95a.app.sub",
+  "name": "plusxu 脚本订阅",
+  "author": "@plusxu",
+  "icon": "https://avatars0.githubusercontent.com/u/9592236",
+  "repo": "https://github.com/Chen95a/plusxu",
+  "apps": [
+     {
       "id": "shareCode",
       "name": "互助码",
       "keys": [
