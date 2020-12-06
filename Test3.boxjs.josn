@@ -1,9 +1,9 @@
 {
-  "id": "photonmang.app.sub",
-  "name": "photonmang应用订阅",
-  "author": "@photonmang",
+  "id": "chen95a.app.sub",
+  "name": "chen95a应用订阅",
+  "author": "@chen95a",
   "icon": "https://avatars0.githubusercontent.com/u/69352097?v=4",
-  "repo": "https://github.com/photonmang/quantumultX",
+  "repo": "https://github.com/chen95a/plusxu",
   "apps": [
     {
       "id": "xxysrw",
