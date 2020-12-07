@@ -64,7 +64,7 @@ const qqreadtimeheaderVal = JSON.stringify($request.headers)
 
 }
 
- function xxx()
+ /*function xxx()
 
  {
 
@@ -90,8 +90,8 @@ all();
 }
 }
 xxx()
-
-/*function xxx()
+*/
+function xxx()
 
  {
 
@@ -154,7 +154,6 @@ console.log(qqreadurlVal+'\n\n'+qqreadheaderVal+'\n\n'+qqreadtimeurlVal+'\n\n'+q
 
 
 xxx()
-*/
 
 /*if (i!=3)fgx()
 
