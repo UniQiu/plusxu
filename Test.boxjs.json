@@ -1,9 +1,9 @@
 {
-  "id": "lxk0301.app.sub2",
-  "name": "自用1",
-  "author": "@lxk0301",
-  "icon": "https://avatars0.githubusercontent.com/u/21308593?s=52&v=4",
-  "repo": "https://github.com/lxk0301/jd_scripts/",
+  "id": "chen95a.app.sub",
+  "name": "plusxu 脚本订阅",
+  "author": "@plusxu",
+  "icon": "https://avatars3.githubusercontent.com/u/42340256?s=460&v=4",
+  "repo": "https://github.com/Chen95a/plusxu",
   "apps": [
     {
       "id": "shareCode",
