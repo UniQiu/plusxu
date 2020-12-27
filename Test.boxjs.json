@@ -1,6 +1,6 @@
 {
   "id": "lxk0301.app.sub2",
-  "name": "自用",
+  "name": "自用1",
   "author": "@lxk0301",
   "icon": "https://avatars0.githubusercontent.com/u/21308593?s=52&v=4",
   "repo": "https://github.com/lxk0301/jd_scripts/",
@@ -92,5 +92,4 @@
           "desc": "京喜工厂互助码.你自己的互助码."
         }
       ]
-]
 }
