@@ -99,7 +99,7 @@
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
       ]
-      {"id": "qqread",
+      "id": "qqread",
     "name": "企鹅读书",
     "keys": ["qqreadbd", "qqreadtimeurl", "qqreadtimehd", "qqreadbd2", "qqreadtimeurl2", "qqreadtimehd2", "qqreadbd3", "qqreadtimeurl3", "qqreadtimehd3"],
     "author": "@ziye",
