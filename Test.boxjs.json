@@ -99,7 +99,8 @@
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
       ]
-      "id": "qqread",
+      },
+      {"id": "qqread",
     "name": "企鹅读书",
     "keys": ["qqreadbd", "qqreadtimeurl", "qqreadtimehd", "qqreadbd2", "qqreadtimeurl2", "qqreadtimehd2", "qqreadbd3", "qqreadtimeurl3", "qqreadtimehd3"],
     "author": "@ziye",
@@ -128,6 +129,6 @@
   "repo": "https://github.com/ziye12/JavaScript/blob/master/Task/qqreads.js",
     "icons": ["https://raw.githubusercontent.com/ziye12/JavaScript/master/qqread.jpg", "https://raw.githubusercontent.com/ziye12/JavaScript/master/qqread.jpg"],
     "script": "https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js"
-}
+ }
 ]
 }
