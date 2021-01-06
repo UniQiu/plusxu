@@ -100,6 +100,31 @@
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
       ]
       },
+     {
+        "id": "txnews",
+        "name": "腾讯新闻",
+        "keys": ["sy_signurl_txnews1", "sy_cookie_txnews1", "video_txnews1","sy_signurl_txnews2", "sy_cookie_txnews2", "video_txnews2"],
+        "author": "@sunert",
+        "settings": [{
+            "id": "notifynum",
+            "name": "通知频率",
+            "val": "",
+            "type": "number",
+            "placeholder": "默认50 (点击以展开说明)",
+            "desc": "阅读篇数间隔通知开为1，常关为0(默认50篇)"
+        },
+        {
+            "id": "delay",
+            "name": "延迟时间(毫秒)",
+            "val": "",
+            "type": "number",
+            "placeholder": "默认200 (点击以展开说明)",
+            "desc": "接口延迟时间"
+        }],
+        "repo": "https://github.com/Sunert/Scripts/blob/master/Task/txnews.js",
+        "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/txnews.png", "https://raw.githubusercontent.com/Orz-3/task/master/txnews.png"],
+        "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js"
+    },
       {"id": "qqread",
     "name": "企鹅读书",
     "keys": ["qqreadbd", "qqreadtimeurl", "qqreadtimehd", "qqreadbd2", "qqreadtimeurl2", "qqreadtimehd2", "qqreadbd3", "qqreadtimeurl3", "qqreadtimehd3"],
