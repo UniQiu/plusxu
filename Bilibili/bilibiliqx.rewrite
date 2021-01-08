@@ -22,9 +22,6 @@
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash url reject-dict
 
 # bilibili_获取cookie
-^https:\/\/(www|live)\.bilibili\.com\/?.? url script-request-header https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/bilibili/bilibili_plus.js
-
-# 解锁1080p
-https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) url script-response-body https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/bilibili/bilifj.js
+^https:\/\/(www|live)\.bilibili\.com\/?.? url script-request-header https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/bilibili/bilibili.cookie.js
 
 hostname = app.bilibili.com,api.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, *.bilibili.com
