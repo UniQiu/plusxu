@@ -65,8 +65,8 @@ let ids = {
   await getRedRain();
 
   let nowTs = new Date().getTime()
- # if (!($.st <= nowTs && nowTs < $.ed)) {
-  #  $.log(`远程红包雨配置获取错误，从本地读取配置`)
+  if (!($.st <= nowTs && nowTs < $.ed)) {
+    $.log(`远程红包雨配置获取错误，从本地读取配置`)
     let hour = (new Date().getUTCHours() + 8) %24
     if (ids[hour]){
       $.activityId = ids[hour]
