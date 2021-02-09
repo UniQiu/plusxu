@@ -47,13 +47,13 @@ let ids = {
   
   '0': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
   '9': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
+  '11': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',  
   '13': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
   '15': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
   '17': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
   '19': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
   '20': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
   '21': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
-  '22': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
   '23': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
   
 }
@@ -65,8 +65,8 @@ let ids = {
   await getRedRain();
 
   let nowTs = new Date().getTime()
-  if (!($.st <= nowTs && nowTs < $.ed)) {
-    $.log(`远程红包雨配置获取错误，从本地读取配置`)
+ # if (!($.st <= nowTs && nowTs < $.ed)) {
+  #  $.log(`远程红包雨配置获取错误，从本地读取配置`)
     let hour = (new Date().getUTCHours() + 8) %24
     if (ids[hour]){
       $.activityId = ids[hour]
