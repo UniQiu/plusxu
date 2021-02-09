@@ -62,22 +62,22 @@ let ids = {
     $.msg($.name, '【提示】请先获取京东账号一cookie\n直接使用NobyDa的京东签到获取', 'https://bean.m.jd.com/', {"open-url": "https://bean.m.jd.com/"});
     return;
   }
-  #await getRedRain();
+  //await getRedRain();
 
-  let nowTs = new Date().getTime()
-  if (!($.st <= nowTs && nowTs < $.ed)) {
-    $.log(`远程红包雨配置获取错误，从本地读取配置`)
-    let hour = (new Date().getUTCHours() + 8) %24
-    if (ids[hour]){
-      $.activityId = ids[hour]
-      $.log(`本地红包雨配置获取成功`)
-    } else{
-      $.log(`无法从本地读取配置，请检查运行时间`)
-      return
-    }
-  } else{
-    $.log(`远程红包雨配置获取成功`)
-  }
+  //let nowTs = new Date().getTime()
+  //if (!($.st <= nowTs && nowTs < $.ed)) {
+   // $.log(`远程红包雨配置获取错误，从本地读取配置`)
+   // let hour = (new Date().getUTCHours() + 8) %24
+    //if (ids[hour]){
+     // $.activityId = ids[hour]
+    //  $.log(`本地红包雨配置获取成功`)
+  //  } else{
+    //  $.log(`无法从本地读取配置，请检查运行时间`)
+      //return
+   // }
+//  } else{
+  //  $.log(`远程红包雨配置获取成功`)
+//  }
   for (let i = 0; i < cookiesArr.length; i++) {
     if (cookiesArr[i]) {
       cookie = cookiesArr[i];
