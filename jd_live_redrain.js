@@ -45,10 +45,10 @@ if ($.isNode()) {
 }
 const JD_API_HOST = 'https://api.m.jd.com/api';
 let ids = {
-  '20': 'RRA3uBKwUopiyMQWxU87SYaBgwSY1MF',
-  '21': 'RRA3uBKwUopiyMQWxU87SYaBgwSY1MF',
-  '22': 'RRA3uBKwUopiyMQWxU87SYaBgwSY1MF',
-  '23': 'RRA3uBKwUopiyMQWxU87SYaBgwSY1MF',
+  '20': 'RRAmLxWYJf212wNTGRFXjR2qTSEftB',
+  '21': 'RRAmLxWYJf212wNTGRFXjR2qTSEftB',
+  '22': 'RRAmLxWYJf212wNTGRFXjR2qTSEftB',
+  '23': 'RRAmLxWYJf212wNTGRFXjR2qTSEftB',
 }
 !(async () => {
   if (!cookiesArr[0]) {
