@@ -22,6 +22,6 @@
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash url reject-dict
 
 # bilibili_获取cookie
-^https:\/\/(www|live)\.bilibili\.com\/?.? url script-request-header https://raw.githubusercontent.com/Chen95a/plusxu/master/Bilibili/bilibili_plus.js
+^https:\/\/(www|live)\.bilibili\.com\/?.? url script-request-header https://raw.githubusercontent.com/dompling/Script/master/BiliBili/bilibili.cookie.js
 
 hostname = app.bilibili.com,api.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, *.bilibili.com
